@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(5, 83, 57);
+            }
+            div{
+                background-color: white;
+                position: absolute;
+                width: 400px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: grid;
+            place-items: center;
+
+            }
+            input[ type= email]{ background-image: url('email.png');
+                background-size: 25px;
+                background-repeat: no-repeat;
+                
+                width: 300px;
+                margin-top: 10px;
+                height: 25px;
+            }
+            input[ type= text]{
+                background-image: url('user (1).png');
+                background-size: 25px;
+                background-repeat: no-repeat;
+                
+                width: 300px;
+                margin-top: 10px;
+                height: 25px;
+            }
+            input[ type= password]{ background-image: url('eye.png');
+                background-size: 25px;
+                background-repeat: no-repeat;
+                
+                width: 300px;
+                margin-top: 10px;
+                height: 25px;
+            }
+            input::placeholder{
+                text-align:center;
+            }
+            
+            
+
+
+         
+       </style>
+    </head>
+    <body>
+        <div>
+            <h1>Sign Up</h1><br>
+            <p>
+                please fill in this form to create an account
+            </p><br>
+            <form>
+                <input type="text" placeholder="username"/><br>
+                <input type="email" placeholder="email address"/><br>
+                <input type="password" placeholder="password"/><br>
+                <input type="password" placeholder=" conform password"/><br>
+                <input type="checkbox" > i accept the terms<br>
+
+                <input type="submit" value="Sign Up"
+            </form>
+        </div>
+
+    </body>
+
+</html>

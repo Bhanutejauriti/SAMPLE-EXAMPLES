@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @media screen and (min-width:600px) {
+        body{
+            background-color:white;
+            }
+        nav{
+            display: inline;
+            }
+        a{
+            font-size: large;
+            float: center;
+            margin-left: 10px;
+        }
+        img{
+            width: 100px;
+            height: 100px; 
+        }
+        #id1{
+            display: inline;
+            width: auto;
+            height: 100px;
+        }
+        #id2{
+            position: relative;
+            text-align: center;
+            color: white;    
+        }
+        #img2{
+            width: 100%;
+            
+            height:500px;
+            
+          background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url();
+        }
+        #h1-1{
+            position: absolute;
+            top: 60px;
+        }
+        #h2-1{
+            position: absolute;
+            top: 100px;
+        }
+        #button1{
+            width: 130px;
+            height: 30px;
+            position: absolute;
+            top: 160px;
+            left: 10px;
+        }
+        #button2{
+            width: 130px;
+            height: 30px;
+            position: absolute;
+            top: 160px;
+            left: 140px;
+        }
+        #id2-2
+        {
+            width: 200px;
+            color: white;
+            background-color: blue;
+            position: absolute;
+            top: 500px;
+            left: 20px;
+            border-radius: 20px;
+        }
+        #id2-3
+        {
+            width: 200px;
+            color: white;
+            background-color: blue;
+            position: absolute;
+            top: 500px;
+            left: 250px;
+            border-radius: 20px;
+        }
+        #id2-4
+        {
+            width: 200px;
+            color: white;
+            background-color: blue;
+            position: absolute;
+            top: 500px;
+            left: 510px;
+            border-radius: 20px;
+
+        }
+        #id1-1{
+            position: absolute;
+            top: 80px;
+            left: 200px;
+        }
+        #id0-1{
+           
+            position: absolute;
+            top: 5px;
+            left: 500px;
+            
+
+        }
+        #id0-2{
+           
+           position: absolute;
+           top: -8px;
+           left: 525px;
+           
+
+       }
+       a:hover{
+        background-color: rgb(11, 112, 175);
+        color: white;
+ 
+       }
+       .c1{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%,-10%);
+       }
+        
+    }
+      
+      
+       
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <div id="id0">
+            <a id="a1" href="_blank">doctors</a>
+            <a id="a1" href="_blank">services</a>
+            <a id="a1" href="_blank">pages</a>
+            <a id="a1" href="_blank">blogs</a>
+            <a id="a1" href="_blank">contact us</a>
+            <div id="id0-1"><img src="email.png"  style="width: 20px; height: 20px;">
+            </div>
+            <div id="id0-2">
+                <p>support@gmail.com</p>
+            </div>
+            
+            
+        </div>
+        
+    
+    
+        <br>
+        <div id="id1">
+        <img src="data:image/png;base64,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">
+        <div id="id1-1">
+            <a href="home.html">home</a>
+        <a href="_blank">doctors</a>
+        <a href="_blank">services</a>
+        <a href="_blank">pages</a>
+        <a href="_blank">blogs</a>
+        <a href="_blank">contact us</a>
+        <a href="_blank" style="background-color: aqua;">appointment </a>
+        </div>
+    </div>
+    <div>
+        <div id="id2">
+            <img id="img2" src="images.jpeg"
+            <div id="id2-1"> 
+                <h1 id="h1-1"> we provide <span style="color: blue;">medical</span> services</h1>
+                <h2 id="h2-1">That you can <span style="color: blue;">trust!</span></h2>
+                <a href="_blank"><button id="button1" style="background-color: blue; color: white;">Get appointment</button></a>
+                <a href="_blank"><button id="button2" style="background-color: blue; color: white;">Get appointment</button></a>
+                
+            </div>
+            <div id="id2-2">
+                <p>learn aneny</p>
+                <h1>Emergency cases</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam commodi harum a nobis nam earum enim. At blanditiis illo magnam repudiandae quo necessitatibus doloremque, suscipit nostrum quae dolor. Incidunt.</p>
+    
+    
+            </div>
+            <div id="id2-3">
+                <p>fusco poeters</p>
+                <h1>Doctors timetables</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam commodi harum a nobis nam earum enim. At blanditiis illo magnam repudiandae quo necessitatibus doloremque, suscipit nostrum quae dolor. Incidunt.</p>
+    
+    
+            </div>
+            <div id="id2-4">
+                <p>fusco poeters</p>
+                <h1>Doctors timetables</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam commodi harum a nobis nam earum enim. At blanditiis illo magnam repudiandae quo necessitatibus doloremque, suscipit nostrum quae dolor. Incidunt.</p>
+    
+    
+            </div>
+           
+           
+        </div>
+        
+    </div>
+    
+</body>
+</html>

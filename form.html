@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>form tag</title>
+        <script>
+            function display(){
+                var x=document.getElementById('id2').value;
+                document.getElementById('id3').innerText=x;
+
+               
+                
+
+            }
+        </script>
+    </head>
+    <body>
+        <form action="image.html" method="post" name="form1" autocomplete="on" enctype="multipart/form-data">
+            <input id="id1" type="email" placeholder="enter email" required><br>
+            <input id="id2" type="password" placeholder="enter passwors" required><br>
+            <input type="file" capture="image" accept=".pdf">
+            <input type="button" value="submit" onclick="display()">
+            <input type="reset" value="clear" >
+            <p> the password is <span id="id3"></span></p>
+            
+        </form>
+    </body>
+</html>
